@@ -1,6 +1,9 @@
 <template>
     <div class="services">
-        <h1>What we do</h1>
+        <div class="jumbotron">
+             <h1>What we do</h1>
+        </div>
+       
     </div>
 </template>
 

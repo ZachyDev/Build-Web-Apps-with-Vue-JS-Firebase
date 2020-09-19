@@ -1,6 +1,9 @@
 <template>
   <div class="about">
-      <h1>About Codershub</h1>
+      <div class="jumbotron">
+          <h1>About Codershub</h1>
+      </div>
+      
   </div>
 </template>
 
