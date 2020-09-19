@@ -5,14 +5,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
+      <li class="nav-item active bg-primary">
         <router-link to="/" class="nav-link">Home</router-link>
       </li>
       <li class="nav-item">
-          <router-link to="/about" class="nav-link">About</router-link>
+          <router-link :to="{name: 'About'}" class="nav-link">About</router-link>
       </li>
       <li class="nav-item">
-          <router-link to="/services" class="nav-link">Services</router-link>
+          <router-link :to="{name: 'Services'}" class="nav-link">Services</router-link>
       </li>
     </ul>
 
@@ -32,5 +32,5 @@ export default {
 </script>
 
 <style>
-
+   
 </style>
