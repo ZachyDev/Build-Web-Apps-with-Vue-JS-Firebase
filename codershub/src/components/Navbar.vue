@@ -5,7 +5,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active bg-primary">
+      <li class="nav-item">
         <router-link to="/" class="nav-link">Home</router-link>
       </li>
       <li class="nav-item">
@@ -44,6 +44,8 @@ export default {
 }
 </script>
 
-<style>
-   
+<style scoped>
+  a.router-link-exact-active{
+    color: gold;
+  }
 </style>
