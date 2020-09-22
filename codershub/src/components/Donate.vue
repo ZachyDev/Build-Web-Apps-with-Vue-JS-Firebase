@@ -1,12 +1,25 @@
 <template>
-  <div class="jumbotron">
+    <div>
+      <div class="jumbotron">
       <h1 class="text-primarry">Donate and support us</h1>
-  </div>
+     </div>
+     <button class="btn btn-primary" @click="goPrev">Go Back</button>
+</div>
+
+  
 </template>
 
 <script>
 export default {
-    name: "Donate"
+    name: "Donate",
+    data() {
+        return{}
+    },
+    methods: {
+        goPrev() {
+            this.$router.go(-1)
+        }
+    }
 }
 </script>
 

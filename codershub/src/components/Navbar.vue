@@ -21,7 +21,7 @@
         <router-link to="{name: 'Team'}" class="nav-link">Our Team</router-link>
       </li>
     </ul>
-      <button @click="redirectHome">Return to home</button>
+
   </div>
 
 </nav>
