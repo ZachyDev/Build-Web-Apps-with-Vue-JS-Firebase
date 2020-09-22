@@ -14,6 +14,9 @@
       <li class="nav-item">
           <router-link :to="{name: 'Services'}" class="nav-link">Services</router-link>
       </li>
+      <li class="nav-item">
+        <router-link :to="{name: 'Donate' }" class="nav-link">Donate</router-link>
+      </li>
     </ul>
 
   </div>
