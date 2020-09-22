@@ -11,6 +11,14 @@ export default {
         return{
             teamId: this.$route.params.team_id
         }
+    },
+    methods: {
+        updateId() {
+            this.teamId = this.$route.params.team_id
+        }
+    },
+    watch: {
+        $route: "updateId"
     }
 }
 </script>
